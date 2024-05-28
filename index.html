@@ -10,8 +10,10 @@
             margin: 0;
             padding: 0;
             background-color: #ffffff; /* Set the background color to white */
+            line-height: 1.6;
         }
         .container {
+            width: 90%;
             max-width: 800px;
             margin: auto;
             padding: 20px;
@@ -26,6 +28,18 @@
             background: #f4f4f4;
             padding: 10px;
             border: 1px solid #ddd;
+            overflow-x: auto;
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.5em;
+            }
+            h2 {
+                font-size: 1.2em;
+            }
+            pre {
+                font-size: 0.9em;
+            }
         }
     </style>
 </head>
