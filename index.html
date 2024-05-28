@@ -4,48 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AdsKit Advertsing Network</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f6e7f7; /* Set the background color to white */
-            line-height: 1.6;
-        }
-        .container {
-            width: 90%;
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-        }
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f6e7f7; /* Set the background color to white */
+        line-height: 1.6;
+    }
+    .container {
+        width: 90%;
+        max-width: 800px;
+        margin: auto;
+        padding: 30px;
+        
+    }
+    h1 {
+        text-align: center;
+    }
+    h2 {
+        color: #802c64;
+    }
+    pre {
+        background: #f4f4f4;
+        padding: 10px;
+        border: 1px solid #ddd;
+        overflow-x: auto;
+    }
+    header, footer {   
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        width: 100%;
+    }
+    header {
+        background-color: #802c64;
+        font-size: 1.3em;
+        position: fixed;
+        top: 0;
+    }
+    footer {
+        background-color: #802c64;
+        bottom: 0;
+    }
+    .content {
+        padding-top: 60px; /* Adjust padding to avoid overlap with the fixed header */
+        padding-bottom: 40px; /* Adjust padding to avoid overlap with the fixed footer */
+    }
+    @media (max-width: 600px) {
         h1 {
-            text-align: center;
+            font-size: 1.em;
         }
         h2 {
-            color: #007BFF;
+            font-size: 1.2em;
         }
         pre {
-            background: #f4f4f4;
-            padding: 10px;
-            border: 1px solid #ddd;
-            overflow-x: auto;
+            font-size: 0.9em;
         }
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 1.5em;
-            }
-            h2 {
-                font-size: 1.2em;
-            }
-            pre {
-                font-size: 0.9em;
-            }
-        }
-    </style>
+    }
+</style>
 </head>
 <body>
+    <header>
+        Adskit (AdRevnue for TikTokers)
+    </header>
     <div class="container">
-        <h1>Adskit From Spaces</h1>
+        <h1>Documentation</h1>
         <p>This page provides a brief overview of our Game changing, State-of-the-Art Advertsing Platform for TikTok.</p>
 
         <h2>Note from the Founder</h2>
@@ -69,12 +94,17 @@
             <li><strong>#Adcontent</strong>: Use this hot key as a starting word/line of your Ad content. If the Advert is Text only, It should start with <b><i>#Adcontent</i></b>. The same still applies to photo/video captions.</li>
         </ul>
         <h2>How the platform Works</h2>
-        <p>Our Platform uses a friendly bot that manages both a TikTok content creator and Advertisers.<br><strong>== [Advertisers]</strong> to <strong>[AdsKit]</strong> & finally to <strong> [TikToker] ==</strong><br><br><b>#1.</b> An advertiser Requests to have his/her an advert placed in a TikToker's next video. The bot inboxes him/her with the instructions on how to submit the Advert to Adskit.<br><br><b>#2.</b> Adskit reviews the Advert upon recieving it and if the advert meets the standards, an Ad placement request is sent to the Tiktoker informing him/her of the deal.<br><br><b>#3.</b> A user has the right to accept or Decline the Ad placement request. If he/she accepts to take the deal, the TikToker is expected to make a video in any way he likes, making sure the Advert is included in the video. </p>
+        <p>Our Platform uses a friendly bot that manages both a TikTok content creator and Advertisers.<br><strong>== [Advertisers]</strong> to <strong>[AdsKit]</strong> & finally to <strong> [TikToker] ==</strong><br><br><b>#1.</b> An advertiser Requests to have his/her advert placed in a TikToker's next video. The bot inboxes him/her with the instructions on how to submit the Advert to Adskit.<br><br><b>#2.</b> Adskit reviews the Advert upon recieving it and if the advert meets the standards, an Ad placement request is sent to the Tiktoker informing him/her of the deal.<br><br><b>#3.</b> A user has the right to accept or Decline the Ad placement request. If he/she accepts to take the deal, the TikToker is expected to make a video in any way he likes, making sure the Advert is included in the video. </p>
         <h3>Public Channel</h3>
         <p>We are making use of our new Telegram channel named <a href="https://t.me/adskity">TikTok Spaces✨.</a><br>In this channel, Advertisers can find various TikTok creators who are registered with us. From this, Ad placement requests can be initiated by the Advertisers against any Ad space of their choice.</p>
 
-        <h3>Extracting Full Name</h3>
-        <pre><code>full_name = f"{message.from_user.first_name} {message.from_user.last_name or ''}".strip()</code></pre>
+        <h2>Disclaimer</h2>
+        <p>This platform is not at any point managed/owned by ByteDance Ltd, a Chineese company that owns TikTok.<br><br>Further more, Adskit (Formerly "TikTok Spaces") will never ask for your Bank Passwords, Card CVV, OTP among others through any private chats. <br><br>Immediately Report to us incase of anything. Our Support team is always available.</p>
+        <h2>How to Contact us</h2>
+        <p>To contact us personally, you can email us <a href="mailto:adskit1@gmail.com">HERE</a></p>
     </div>
+    <footer>
+        &copy; 2024 Adskit💝. All rights reserved.
+    </footer>
 </body>
 </html>
